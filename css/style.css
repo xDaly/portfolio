@@ -1,0 +1,38 @@
+.vertical-menu {
+  width: 200px; 
+  position: fixed;
+}
+
+.vertical-menu a {
+  color: black; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none; 
+  font-family: fantasy;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.vertical-menu a:hover {
+  background-color: #E8DFDA; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #003FD5 ; /* Add a green color to the "active/current" link */
+  color: white;
+}
+#component
+{
+	background-color: #E8DFDA;
+	background-repeat: no-repeat;
+position: relative;
+background-attachment: fixed;
+font-family: sans-serif;
+
+
+}
+.col-2 {
+	  background-color: #FF6347; 
+
+}
+
